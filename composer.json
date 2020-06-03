@@ -1,0 +1,37 @@
+{
+    "name": "davidsneal/statamic-circleci",
+    "description": "A simple addon for Statamic v3, to trigger CircleCI workflows from the CP.",
+    "keywords": [
+        "Statamic",
+        "Addon",
+        "CircleCI"
+    ],
+    "type": "statamic-addon",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Davidsneal\\StatamicCircleCi\\": "src"
+        }
+    },
+    "authors": [
+        {
+        "name": "David Neal"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "7.*",
+        "statamic/cms": "3.*@beta"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Davidsneal\\StatamicCircleCi\\ServiceProvider"
+            ]
+        },
+        "statamic": {
+            "name": "CircleCi",
+            "description": "Trigger CircleCi workflows from the CP."
+        }
+    }
+}
