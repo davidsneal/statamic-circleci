@@ -8,7 +8,7 @@ A simple addon for Statamic v3, to trigger CircleCI workflows/deployments from t
 
 ## Configuration
 
-(optional) Publish the addon's default configuration file.
+Publish the addon's default configuration file and JS.
 
 `php artisan vendor:publish --provider="Davidsneal\StatamicCircleCi\ServiceProvider"`
 
