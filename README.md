@@ -14,11 +14,13 @@ A simple addon for Statamic v3, to trigger CircleCI workflows/deployments from t
 
 Set the required environment variables.
 
-```LN_CIRCLECI_BRANCH=
+```
+LN_CIRCLECI_BRANCH=
 LN_CIRCLECI_PROJECT=
 LN_CIRCLECI_TOKEN=
 LN_CIRCLECI_USERNAME=
-LN_CIRCLECI_VCS=github```
+LN_CIRCLECI_VCS=github
+```
 
 ## Usage
 
