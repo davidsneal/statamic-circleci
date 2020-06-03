@@ -12,7 +12,9 @@ A simple addon for Statamic v3, to trigger CircleCI workflows/deployments from t
 
 `php artisan vendor:publish --provider="Davidsneal\StatamicCircleCi\ServiceProvider"`
 
-Set the required environment variables.
+You shall need to create a personal access token in the [CircleCI Dashboard](https://app.circleci.com/settings/user/tokens), then set it along with the other required environment variables.
+
+![menu](https://github.com/davidsneal/statamic-circleci/blob/master/img/circleci-token.png?raw=true)
 
 ```
 LN_CIRCLECI_BRANCH=
