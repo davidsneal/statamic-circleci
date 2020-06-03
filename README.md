@@ -28,8 +28,6 @@ You can access the feature from the CP menu under Tools.
 
 ![menu](https://github.com/davidsneal/statamic-circleci/blob/master/img/menu.png?raw=true)
 
-This is the default component view, again you can change every item of text, including the confirmation modal.
-
 ![main](https://github.com/davidsneal/statamic-circleci/blob/master/img/main-screen.png?raw=true)
 
 ![confirmation](https://github.com/davidsneal/statamic-circleci/blob/master/img/confirmation.png?raw=true)
