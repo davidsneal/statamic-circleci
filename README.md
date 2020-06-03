@@ -17,11 +17,11 @@ You shall need to create a personal access token in the [CircleCI Dashboard](htt
 ![menu](https://github.com/davidsneal/statamic-circleci/blob/master/img/circleci-token.png?raw=true)
 
 ```
-LN_CIRCLECI_BRANCH=
-LN_CIRCLECI_PROJECT=
-LN_CIRCLECI_TOKEN=
-LN_CIRCLECI_USERNAME=
-LN_CIRCLECI_VCS=github
+CIRCLECI_BRANCH=
+CIRCLECI_PROJECT=
+CIRCLECI_TOKEN=
+CIRCLECI_USERNAME=
+CIRCLECI_VCS=github
 ```
 
 ## Usage

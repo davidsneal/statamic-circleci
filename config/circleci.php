@@ -2,10 +2,10 @@
 
 return [
     'parameters' => [
-        'branch' => env('LN_CIRCLECI_BRANCH'),
+        'branch' => env('CIRCLECI_BRANCH'),
     ],
-    'project' => env('LN_CIRCLECI_PROJECT'),
-    'token' => env('LN_CIRCLECI_TOKEN'),
-    'username' => env('LN_CIRCLECI_USERNAME'),
-    'vcs' => env('LN_CIRCLECI_VCS'),
+    'project' => env('CIRCLECI_PROJECT'),
+    'token' => env('CIRCLECI_TOKEN'),
+    'username' => env('CIRCLECI_USERNAME'),
+    'vcs' => env('CIRCLECI_VCS'),
 ];
